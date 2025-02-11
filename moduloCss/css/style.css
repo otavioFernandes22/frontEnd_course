@@ -1,0 +1,14 @@
+/* Para atacar um id usamos '#'. O sinal de maior significa que apenas div filha será chamada
+*/
+
+#div1 > h1{
+	color: red;
+}
+
+/* Para atacar uma classe usamos '.' */
+
+.div2 h1{
+	color: orange;
+}
+
+/* Usamos id quando não queremos repetir uma marcação, e classes para quando vamos usar mais de uma marcação */
