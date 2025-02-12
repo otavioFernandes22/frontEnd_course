@@ -12,3 +12,11 @@
 }
 
 /* Usamos id quando não queremos repetir uma marcação, e classes para quando vamos usar mais de uma marcação */
+
+/*Resetando documentos*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
