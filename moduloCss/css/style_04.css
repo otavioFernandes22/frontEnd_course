@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+Estilo para o conteúdo do website;
+
+site de estudos - [w3schools]https://www.w3schools.com/css/css_font.asp
+*/
+
+.artigo{
+	width: 900px;
+	background-color: rgb(200, 200, 200);
+	padding: 40px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.artigo h1{
+	color: rgb(66, 149, 244);
+	font-size: 23px;
+	/* font-size: 1em;  equivale a 100% */
+
+	font-family: "Garamond", serif;
+	font-style: normal; /* italic, oblique */
+	font-weight: bold; /* bold */
+/*	font-variant: small-caps;*/
+}
+
+.artigo p{
+	text-align: left;
+	color: #fff;
+	font-size: 17px;
+	font-family: "Garamond", serif;
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+/* LETTER SPACING */
+
+.letterspacing h1{
+	width: 900px;
+	margin: 20px auto;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Garamond", serif;
+	font-variant: small-caps;
+	letter-spacing: 8px; /* Permite o controle de espaçamento das linhas */
+}
